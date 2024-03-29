@@ -1,0 +1,20 @@
+body{
+    background-color: gainsboro;
+}
+h1{
+    color: rgb(88, 168, 200);
+    font-size: 50px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    /* text-align: center; */
+}
+.display{
+display: flex;
+justify-content: center;
+color:rgb(84, 84, 182);
+font-size: 30px;
+border: 1px solid blue;
+padding: 10px;
+margin: 100px 400px  ;
+}
