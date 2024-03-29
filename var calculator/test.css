@@ -11,7 +11,7 @@ h1{
 }
 .display{
 display: flex;
-justify-content: center;
+/* justify-content: center; */
 /* color:rgb(84, 84, 182); */
 /* font-size: 30px; */
 /* border: 1px solid blue; */
