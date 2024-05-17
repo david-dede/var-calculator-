@@ -1,0 +1,28 @@
+body{
+    background-color: thistle;
+    /* display: flex; */
+}
+Form{
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    /* background-color: wheat; */
+    align-items: center;
+    gap: 30px;
+}
+button{
+    padding: 12px 24px;
+    font-size: 30px;
+}
+#amount,
+#token,
+#var{
+    height: 40px;
+    font-size: 30px;
+}
+#result{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}

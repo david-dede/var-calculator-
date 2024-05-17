@@ -4,14 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>var</title>
+    <link rel="stylesheet" href="./index.css">
 </head>
 <body>
-    <label for="amount">amount paid</label>
-    <input type="number" id="amount">
-        <label for="token">price of token</label>
-    <input type="number" id="token">
-        <label for="var">var percentage</label>
-    <input type="number" id="var">
-    <button>ok</button>
+    <form id="calculationForm">
+        <label for="amount">Amount paid</label>
+        <input type="number" id="amount">
+        <label for="token">Price of token</label>
+        <input type="number" id="token">
+        <label for="var">Var percentage</label>
+        <input type="number" id="var">
+        <button type="button" id="calculateBtn">Calculate</button>
+    </form>
+
+    <p id="result"></p>
+
+    <script src="./index.js">
+    </script>
 </body>
 </html>

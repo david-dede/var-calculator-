@@ -1,9 +1,9 @@
 function promptForNumber(message) {
   let input = parseFloat(prompt(message));
   if (isNaN(input) || input <= 0) {
-    // alert("Please enter a valid positive number.");
-    return alert("input must be a number and must be greater than 0"); // Return NaN to indicate invalid input
-    calculateTokens();
+    
+    return alert("input must be a number and must be greater than 0"); 
+    // calculateTokens();
   }
   return input;
 }
@@ -26,6 +26,7 @@ function calculateTokens() {
   let display = document.createElement("div");
   display.classList.add("display");
   display.innerHTML = `${tokens} tokens`;
+  console.log(tokens);
 
   document.body.appendChild(display);
 }
