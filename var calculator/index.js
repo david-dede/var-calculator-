@@ -11,5 +11,5 @@ document
     let totalAmount = amountPaid - varAmount;
     let token = Math.floor(totalAmount / priceOfToken);
 
-    document.getElementById("result").innerText = "Result: " + token;
+    document.getElementById("result").innerText = `david ${token}`;
   });
