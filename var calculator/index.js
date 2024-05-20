@@ -4,7 +4,7 @@ document
     event.preventDefault(); // Prevent form submission
 
     let amountPaid = parseFloat(document.getElementById("amount").value);
-    // let priceOfToken = parseFloat(document.getElementById("token").value);
+    let priceOfToken = parseFloat(document.getElementById("token").value);
     // let varPercentage = parseFloat(document.getElementById("var").value);
 
     // let varAmount = amountPaid * (varPercentage / 100);
