@@ -3,7 +3,7 @@ document
   .addEventListener("click", function (event) {
     event.preventDefault(); // Prevent form submission
 
-    // let amountPaid = parseFloat(document.getElementById("amount").value);
+    let amountPaid = parseFloat(document.getElementById("amount").value);
     // let priceOfToken = parseFloat(document.getElementById("token").value);
     // let varPercentage = parseFloat(document.getElementById("var").value);
 
