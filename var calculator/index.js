@@ -12,4 +12,4 @@ document
     let token = Math.floor(totalAmount / priceOfToken);
 
     document.getElementById("result").innerText = `david ${token}`;
-  // });
+  });
