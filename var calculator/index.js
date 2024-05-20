@@ -1,7 +1,7 @@
 document
   .getElementById("calculateBtn")
   .addEventListener("click", function (event) {
-    // event.preventDefault(); // Prevent form submission
+    event.preventDefault(); // Prevent form submission
 
     // let amountPaid = parseFloat(document.getElementById("amount").value);
     // let priceOfToken = parseFloat(document.getElementById("token").value);
