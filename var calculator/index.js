@@ -8,7 +8,7 @@ document
     let varPercentage = parseFloat(document.getElementById("var").value);
 
     let varAmount = amountPaid * (varPercentage / 100);
-    let totalAmount = amountPaid - varAmount;
+    // let totalAmount = amountPaid - varAmount;
     // let token = Math.floor(totalAmount / priceOfToken);
 
     // document.getElementById("result").innerText = `david ${token}`;
